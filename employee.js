@@ -9,7 +9,10 @@ class Employee {
         }
     }
 
-}
+    calculateBonus(multiplier) {
+        return this.salary * multiplier;
+    }
 
+}
 
 module.exports = Employee;
